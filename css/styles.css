@@ -1,14 +1,43 @@
 body {
   font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Headings*/
+.title-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Containers*/
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 #title {
+  text-align: left;
   background-color: #ff4c68;
   color: white;
 }
 
-.container-fluid {
-  padding: 3% 15% 4%;
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -29,13 +58,6 @@ body {
   padding: 0 18px;
 }
 
-h1 {
-  font-family: Montserrat;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -48,6 +70,10 @@ h1 {
 }
 
 @media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
   .app-example {
     position: static;
     transform: rotate(0);
@@ -56,19 +82,13 @@ h1 {
 
 #features {
   padding: 100px 0;
-  text-align: center;
   position: relative;
   background-color: white;
 }
 
-h3 {
-  font-family: Montserrat;
-  font-weight: 600;
+.feature-title {
+  font-weight: bold;
   font-size: 1.5rem;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 .icon {
@@ -83,17 +103,7 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
   color: white;
-}
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
-.testimonial-quote {
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -104,7 +114,6 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
 }
 
 .press-logo {
@@ -114,8 +123,6 @@ p {
 }
 
 #pricing {
-  padding: 100px 200px;
-  text-align: center;
 }
 
 .pricing-card {
@@ -128,19 +135,16 @@ p {
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 150px 0px;
 }
 
 .cta-h3 {
   font-size: 3rem;
+  font-weight: bold;
   color: white;
-  padding: 50px 200px;
+  padding: 10px 200px;
 }
 
 #footer {
-  text-align: center;
-  padding-top: 150px;
 }
 
 .social-media-icon {

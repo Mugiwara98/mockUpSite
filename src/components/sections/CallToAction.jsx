@@ -1,3 +1,5 @@
+import "./CallToAction.css"
+
 function CallToAction() {
   return (
     <div class="container-fluid">

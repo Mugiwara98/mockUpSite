@@ -1,5 +1,7 @@
 import examplePic from "../.././images/iphone6.png";
 
+import "./Title.css"
+
 function TitleSection() {
   return (
     <div class="row">

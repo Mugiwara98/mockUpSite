@@ -1,3 +1,5 @@
+import PricingCard from "../PricingCard";
+
 function Pricing() {
   return (
     <div class="container-fluid">
@@ -5,59 +7,32 @@ function Pricing() {
       <p>Simple and affordable price plans for your and your dog.</p>
 
       <div class="row">
-        <div class="pricing-card col-lg-4 col-md-6">
-          <div class="card h-100">
-            <div class="card-header">
-              <h3>Chihuahua</h3>
-            </div>
-            <div class="card-body">
-              <h2>Free</h2>
-              <p>5 Matches Per Day</p>
-              <p>10 Messages Per Day</p>
-              <p>Unlimited App Usage</p>
-              <p>-</p>
-              <button type="button" class="pricing-button btn btn-dark">
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
+        <PricingCard
+          memberlvl={"Chihuahua"}
+          price={"Free"}
+          ftOne={"5 Matches Per Day"}
+          ftTwo={"10 Messages Per Day"}
+          ftThree={"Unlimited App Usage"}
+          ftFour={"-"}
+        />
 
-        <div class="pricing-card col-lg-4 col-md-6">
-          <div class="card h-100">
-            <div class="card-header">
-              <h3>Labrador</h3>
-            </div>
-            <div class="card-body">
-              <h2>$49 / mo</h2>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <p>-</p>
-              <button type="button" class="pricing-button btn btn-dark">
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
+        <PricingCard
+          memberlvl={"Labrador"}
+          price={"$49 / mo"}
+          ftOne={"Unlimited Matches"}
+          ftTwo={"Unlimited Messages"}
+          ftThree={"Unlimited App Usage"}
+          ftFour={"-"}
+        />
 
-        <div class="pricing-card col-lg-4 col-md-12">
-          <div class="card h-100">
-            <div class="card-header">
-              <h3>Mastiff</h3>
-            </div>
-            <div class="card-body">
-              <h2>$99 / mo</h2>
-              <p>Pirority Listing</p>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="pricing-button btn btn-dark">
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </div>
+        <PricingCard
+          memberlvl={"Mastiff"}
+          price={"$99 / mo"}
+          ftOne={"5 Matches Per Day"}
+          ftTwo={"10 Messages Per Day"}
+          ftThree={"Unlimited App Usage"}
+          ftFour={"Unlimited App Usage"}
+        />
       </div>
     </div>
   );

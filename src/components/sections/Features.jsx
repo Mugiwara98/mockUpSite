@@ -1,3 +1,5 @@
+import "./Features.css"
+
 function FeaturesSection() {
   return (
     <div class="container-fluid">

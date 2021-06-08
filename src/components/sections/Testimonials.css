@@ -1,0 +1,16 @@
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  margin: 25px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+  padding-bottom: 5%;
+}

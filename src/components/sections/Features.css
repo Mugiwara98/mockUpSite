@@ -1,0 +1,20 @@
+#features {
+  padding: 100px 0;
+  position: relative;
+  background-color: white;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.icon {
+  font-size: 4rem;
+  padding-bottom: 20px;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}

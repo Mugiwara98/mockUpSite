@@ -6,6 +6,8 @@ import mashable from "../../images/mashable.png";
 import techcrunch from "../../images/techCrunch.png";
 import tnw from "../../images/tnw.png";
 
+import "./Testimonials.css"
+
 function Testamonials() {
   return (
     <>
@@ -26,6 +28,7 @@ function Testamonials() {
             <img class="testimonial-image" src={dogImg} alt="dog-profile" />
             <em>Pebbles, New York</em>
           </div>
+          
           <div class="carousel-item container-fluid">
             <h2 class="section-heading">
               My dog used to be so lonely, but with TinDog's help, they've found

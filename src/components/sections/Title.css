@@ -1,0 +1,37 @@
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.title-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.app-example {
+  position: absolute;
+  width: 60%;
+  transform: rotate(20deg);
+  left: 15%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .app-example {
+    position: static;
+    transform: rotate(0);
+  }
+}

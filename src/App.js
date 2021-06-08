@@ -26,6 +26,7 @@ function App() {
       <section id="pricing">
         <Pricing />
       </section>
+      
       <section id="cta">
         <CallToAction />
       </section>

@@ -6,7 +6,7 @@ function TitleSection() {
   return (
     <div class="row">
       <div class="col-lg-6">
-        <h3 class="title-heading">Meet new and interesting dogs nearby.</h3>
+        <h6 class="title-heading">Meet new and interesting dogs nearby.</h6>
         <div class="download-button">
           <button type="button" class="btn btn-dark download-button btn-lg">
             <i class="fab fa-apple"></i> Download
